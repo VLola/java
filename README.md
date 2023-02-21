@@ -1,3 +1,9 @@
+# Project 115.
+
+Поднять подключение к бд через orm Hibernate
+
+___
+
 # Project 80.
 
 ### Task 1: 
