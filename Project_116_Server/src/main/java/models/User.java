@@ -1,7 +1,5 @@
 package models;
-
 import jakarta.persistence.*;
-
 @Entity
 @Table(name = "Users", schema = "dbo", catalog = "vbu011")
 public class User {
@@ -15,27 +13,21 @@ public class User {
         this.Name = name;
         this.Password = password;
     }
-
     public String getName() {
         return Name;
     }
-
     public int getId() {
         return Id;
     }
-
     public String getPassword() {
         return Password;
     }
-
     public void setId(int id) {
         Id = id;
     }
-
     public void setName(String name) {
         Name = name;
     }
-
     public void setPassword(String password) {
         Password = password;
     }

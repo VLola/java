@@ -10,23 +10,18 @@ public class Request {
         this.Password = password;
         this.Type = type;
     }
-
     public String getName() {
         return Name;
     }
-
     public String getPassword() {
         return Password;
     }
-
     public String getType() {
         return Type;
     }
-
     public void setType(String type) {
         Type = type;
     }
-
     @Override
     public String toString() {
         return "{'name':\"" + Name + "\""
